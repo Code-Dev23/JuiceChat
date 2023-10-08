@@ -1,0 +1,26 @@
+# JuiceChat Config
+
+prefix: "&b[&aJuiceChat&b]&r "
+
+anti-swear-message: "&cCoglione non puoi utilizzare questo linguaggio, svegliati cazzo."
+
+chat:
+  format: "&7[&a%player%&7] &f%message%" # the format of the chat
+  personal-format: "&7[&ayou&7] &f%message%" # the format of the personal chat
+  actions:
+    hover: "&7Click to send a private message to &a%player%" # the hover message of the action bar
+    click: "&7Click to send a private message to &a%player%" # the click message of the action bar
+
+blacklist-words:
+  - "dio"
+  - "porco dio"
+
+join-message: "&8(&a+&8) &7%player%"
+first-join-message: "&fWelcome &1%player%"
+quit-message: "&8(&c-&8) &7%player%"
+messages:
+    help-title: "&1» &fList of all commands:"
+    help-format: "&8- &f/juicechat %command% %syntax% &8| &7%description%"
+
+invalid-usage:
+    juicechat-command: "&cInvalid usage, use: /juicechat (reload/set) [join/quit/blwords/lang] <value>"

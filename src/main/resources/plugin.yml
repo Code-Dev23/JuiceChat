@@ -1,0 +1,13 @@
+name: JuiceChat
+version: '${version}'
+main: me.nettychannell.juicechat.JuiceChat
+api-version: 1.8
+authors:
+  - CodeDevv_
+  - SmoDev_
+commands:
+  juicechat:
+    aliases:
+      - chat
+      - jchat
+      - jc
